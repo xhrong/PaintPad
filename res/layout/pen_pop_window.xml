@@ -1,0 +1,295 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:clickable="true"
+              android:orientation="vertical"
+              android:background="#888888"
+        >
+
+
+    <LinearLayout
+            android:layout_weight="1.0"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:id="@+id/smallpen"
+                android:layout_weight="1.0"
+                android:layout_width="fill_parent"
+                android:layout_height="64dp"
+                android:layout_margin="3dp"
+                android:paddingTop="17dp"
+                android:paddingBottom="18dp"
+                android:clickable="true"
+                >
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="center"
+                    android:src="@drawable/selector_smallpen"
+                    android:layout_centerHorizontal="true"
+                    />
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/middlepen"
+                android:layout_weight="1.0"
+                android:layout_width="fill_parent"
+                android:layout_height="64dp"
+                android:layout_margin="3dp"
+                android:paddingTop="17dp"
+                android:paddingBottom="18dp"
+                android:clickable="true"
+                >
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="center"
+                    android:src="@drawable/selector_middlepen"
+                    android:layout_centerHorizontal="true"
+                    />
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/bigpen"
+                android:layout_weight="1.0"
+                android:layout_width="fill_parent"
+                android:layout_height="64dp"
+                android:layout_margin="3dp"
+                android:paddingTop="17dp"
+                android:paddingBottom="18dp"
+                android:clickable="true"
+                >
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="center"
+                    android:src="@drawable/selector_largepen"
+                    android:layout_centerHorizontal="true"
+                    />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#383838"/>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1d1d1d"/>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#383838"/>
+    <LinearLayout
+            android:layout_weight="1.0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:id="@+id/color_red"
+                android:layout_weight="1.0"
+                android:layout_width="fill_parent"
+                android:layout_height="64dp"
+                android:layout_margin="3dp"
+                android:paddingTop="17dp"
+                android:paddingBottom="18dp"
+                android:clickable="true"
+                >
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/icon_red"
+                    android:layout_centerHorizontal="true"
+                    />
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/color_white"
+                android:layout_weight="1.0"
+                android:layout_width="fill_parent"
+                android:layout_height="64dp"
+                android:layout_margin="3dp"
+                android:paddingTop="17dp"
+                android:paddingBottom="18dp"
+                android:clickable="true"
+                >
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/icon_white"
+                    android:layout_centerHorizontal="true"
+                    />
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/color_yellow"
+                android:layout_weight="1.0"
+                android:layout_width="fill_parent"
+                android:layout_height="64dp"
+                android:layout_margin="3dp"
+                android:paddingTop="17dp"
+                android:paddingBottom="18dp"
+                android:clickable="true"
+                >
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/icon_yellow"
+                    android:layout_centerHorizontal="true"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_weight="1.0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:id="@+id/color_black"
+                android:layout_weight="1.0"
+                android:layout_width="fill_parent"
+                android:layout_height="64dp"
+                android:layout_margin="3dp"
+                android:paddingTop="17dp"
+                android:paddingBottom="18dp"
+                android:clickable="true"
+                >
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/icon_black"
+                    android:layout_centerHorizontal="true"
+                    />
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/color_green"
+                android:layout_weight="1.0"
+                android:layout_width="fill_parent"
+                android:layout_height="64dp"
+                android:layout_margin="3dp"
+                android:paddingTop="17dp"
+                android:paddingBottom="18dp"
+                android:clickable="true"
+                >
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/icon_green"
+                    android:layout_centerHorizontal="true"
+                    />
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/color_blue"
+                android:layout_weight="1.0"
+                android:layout_width="fill_parent"
+                android:layout_height="64dp"
+                android:layout_margin="3dp"
+                android:paddingTop="17dp"
+                android:paddingBottom="18dp"
+                android:clickable="true"
+                >
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/icon_skyblue"
+                    android:layout_centerHorizontal="true"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#383838"/>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#1d1d1d"/>
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#383838"/>
+
+    <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <LinearLayout
+                android:id="@+id/pentype_plain"
+                android:layout_weight="1.0"
+                android:layout_width="fill_parent"
+                android:layout_height="64dp"
+                android:layout_margin="3dp"
+                android:paddingTop="17dp"
+                android:paddingBottom="18dp"
+                android:clickable="true"
+                >
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/pen_laser_red"
+                    android:layout_centerHorizontal="true"
+                    />
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/pentype_blur"
+                android:layout_weight="1.0"
+                android:layout_width="fill_parent"
+                android:layout_height="64dp"
+                android:layout_margin="3dp"
+                android:paddingTop="17dp"
+                android:paddingBottom="18dp"
+                android:clickable="true"
+                >
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/pen_laser_red"
+                    android:layout_centerHorizontal="true"
+                    />
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/pentype_emboss"
+                android:layout_weight="1.0"
+                android:layout_width="fill_parent"
+                android:layout_height="64dp"
+                android:layout_margin="3dp"
+                android:paddingTop="17dp"
+                android:paddingBottom="18dp"
+                android:clickable="true"
+                >
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/pen_laser_red"
+                    android:layout_centerHorizontal="true"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
